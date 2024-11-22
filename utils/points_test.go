@@ -17,13 +17,4 @@ func TestCalculatePoints(t *testing.T) {
 			{ShortDescription: "Doritos Nacho Cheese", Price: "3.35"},
 			{ShortDescription: "   Klarbrunn 12-PK 12 FL OZ  ", Price: "12.00"},
 		},
-		Total: "35.35",
-	}
-
-	expectedPoints := 28
-	actualPoints := CalculatePoints(receipt)
-
-	if actualPoints != expectedPoints {
-		t.Errorf("Expected %d points, got %d points", expectedPoints, actualPoints)
-	}
-}
+		Total: "3
